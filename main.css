@@ -18,6 +18,16 @@
   width: 65px;
 }
 
+#contact {
+  height: 300px;
+  background-color: #272727;
+  color: #404040;
+/* 272727 for main area, 171717 for soci media area
+
+ don't forget to remove the height attributes
+above and below this comment */
+}
+
 #whatwedo {
   background-color: #272727;
   padding-bottom: 175px;
@@ -51,19 +61,19 @@
 
 .bands {
   background-color: #8C7620;
+  padding-bottom: 35px;
 }
 
 .bands span {
   color: white;
   font-size: 3.5em;
   font-weight: bold;
-  padding-top: 80px
+  margin-top: 80px;
 }
 
 .bandblurb {
   background-color: white;
   border-radius: 20px;
-  margin: 20px;
   padding: 20px;
   text-align: center;
 }
@@ -79,8 +89,22 @@
   font-size: 2em;
   text-align: center;
 }
+
 .container {
   width: 100%;
+  }
+
+.videos {
+  height: 550px;
+  padding-top: 80px;
+  padding-bottom: 35px;
+  text-align: center;
+}
+
+.videos div span {
+  font-size: 3.2em;
+  font-family: monospace;
+  font-weight: bold;
 }
 
 nav.row {

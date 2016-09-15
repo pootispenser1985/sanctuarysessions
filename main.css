@@ -21,11 +21,20 @@
 #contact {
   height: 300px;
   background-color: #272727;
-  color: #404040;
-/* 272727 for main area, 171717 for soci media area
+  color: #939393;
+}
 
- don't forget to remove the height attributes
-above and below this comment */
+#contact div {
+  font-weight: bold;
+  padding-top: 150px;
+  text-align: center;
+}
+
+#contact div.socialmedia {
+  background-color: #171717;
+  height: 100%;
+  padding-top: 80px;
+  text-align: center;
 }
 
 #whatwedo {
@@ -92,7 +101,17 @@ above and below this comment */
 
 .container {
   width: 100%;
-  }
+}
+
+.socialmedia p {
+  margin-top: 25px;
+}
+
+.socialmedia ul li {
+  display: inline;
+  font-size: 2em;
+  margin: 10px;
+}
 
 .videos {
   height: 550px;

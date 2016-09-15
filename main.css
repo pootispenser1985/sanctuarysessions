@@ -26,8 +26,12 @@
 
 #contact div {
   font-weight: bold;
-  padding-top: 150px;
+  padding-top: 75px;
   text-align: center;
+}
+
+#contact div img {
+  margin-bottom: 10px;
 }
 
 #contact div.socialmedia {
@@ -111,6 +115,14 @@
   display: inline;
   font-size: 2em;
   margin: 10px;
+}
+
+.socialmedia ul li a {
+  color: #939393;
+}
+
+.socialmedia ul li a:hover {
+  color: #EB6657;
 }
 
 .videos {

@@ -4,12 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12./jquery.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12./jquery.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="/sancsesh/main.css?version=71">
+  <link rel="stylesheet" type="text/css" href="/sancsesh/main.css?version=87">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <title>Sanctuary Sessions - Live Sessions From a Basement in Nashville</title>
+  <script src="derpscript.js"></script>
 </head>
 
 <body>
@@ -22,7 +24,7 @@
       </div>
       <a class="col-sm-2 col-sm-offset-2 text-right" href="sessions/sessions.html">All Sessions</a>
       <a class="col-sm-2 text-center" href="https://www.instagram.com/blacksheepnashville/">Black Sheep Productions</a>
-      <a class="col-sm-2 text-center" href="http://livesession.zugzwangrecords.com/">Live Session Application</a>
+      <a class="col-sm-2 text-center" href="#">Live Session Application</a>
       <a class="col-sm-2" href="http://www.zugzwangrecords.com/">Zugzwang Records</a>
     </nav>
 
@@ -115,9 +117,19 @@
       </div>
     </div> <!-- videos -->
     <div class="row videos">
-      <div class="col-sm-12">
-        <h1>INSERT VIDEO SLIDER DOODLIE HERE</h1>
+      <div class="col-md-4 vidyahpane">
+        <iframe src="https://www.youtube.com/embed/dj1gcmfVgzM" frameborder="0" allowfullscreen></iframe>
       </div>
+      <div class="col-md-4 vidyahpane">
+        <iframe src="https://www.youtube.com/embed/J1Eelw8c36U?list=PLypFXlfd_Th_7jwNTKi6dsClu7o7Hj_hp" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="col-md-4 vidyahpane">
+        <iframe src="https://www.youtube.com/embed/oLyXbohVvB8" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="row videos" style="padding-top: 0px;">
+      <b>More Sessions</b><br>
+      <i class="fa fa-chevron-down" id="morevideos"></i>
     </div>
 
     <div class="row" id="contact">

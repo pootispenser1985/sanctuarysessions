@@ -117,8 +117,8 @@
   width: 100%;
 }
 
-.gallery-hidden {
-  display: none;
+.gallery-visible {
+  display: block; 
 }
 
 .socialmedia p {

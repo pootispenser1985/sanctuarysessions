@@ -1,8 +1,8 @@
 $(document).ready(function() {
-  $('#morevideos').bind('click', alerter)
+    window.vidrows = [$('#vidrow0'), $('#vidrow1')];
+    $('#morevideos').bind('click', shownextrow);
 });
 
-alerter = function() { 
-    alert("whawejrtewr");
+shownextrow = function() { 
+    vidrows[0].addClass('gallery-hidden');
 }
-//this is just some placeholder stuff to figure out how to do an onclick event

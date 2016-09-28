@@ -3,6 +3,7 @@
   background-position: -880px -120px;
   height: 600px;
   margin-top: 75px;
+  text-align: center;
 }
 
 #backgroundpic p {
@@ -76,10 +77,14 @@
 
 #youtubebutton {
   background-color: #E96656;
-  margin-top: 200px;
-  margin-left: 200px;
-  position: static;
-  width: 200px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-right: 23px;
+  padding-bottom: 10px;
+  padding-left: 23px;
 }
 
 .bands {
@@ -118,7 +123,7 @@
 }
 
 .gallery-visible {
-  display: block; 
+  display: block;
 }
 
 .socialmedia p {

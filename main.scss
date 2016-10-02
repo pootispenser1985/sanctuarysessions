@@ -1,174 +1,167 @@
 #backgroundpic {
-    background-image: url("images/basement.jpg");
-    background-position: -880px -120px;
-    height: 600px;
-    margin-top: 75px;
-    text-align: center;
-    p {
-      color: white;
-      font-family: serif;
-      font-size: 3.5em;
-      font-weight:  bold;
-      padding-top: 230px;
-    }
+  background-image: url("images/basement.jpg");
+  background-position: -880px -120px;
+  height: 600px;
+  margin-top: 75px;
+  text-align: center;
+  p {
+    color: white;
+    font-family: serif;
+    font-size: 3.5em;
+    font-weight:  bold;
+    padding-top: 230px;
+  }
 }
 
 #bench {
-    height: 65px;
-    width: 65px;
+  height: 65px;
+  width: 65px;
 }
 
 #contact {
-    height: 200px;
-    background-color: #272727;
-    color: #939393;
-    div {
-      font-weight: bold;
-      padding-top: 75px;
+  height: 200px;
+  background-color: #272727;
+  color: #939393;
+  div {
+    font-weight: bold;
+    padding-top: 75px;
+    text-align: center;
+    &.socialmedia {
+      background-color: #171717;
+      height: 100%;
+      padding-top: 80px;
       text-align: center;
-      &.socialmedia {
-        background-color: #171717;
-        height: 100%;
-        padding-top: 80px;
-        text-align: center;
-      }
-      img {
-        margin-bottom: 10px;
-      }
     }
+    img {
+      margin-bottom: 10px;
+    }
+  }
 }
 
 #morevideos {
-    font-size: 3.2em;
-    margin-bottom: 30px;
-    &:hover {
-      color: #EB6657;
-    }
+  font-size: 3.2em;
+  margin-bottom: 30px;
+  &:hover {
+    color: #EB6657;
+  }
 }
 
 #whatwedo {
-    background-color: #272727;
-    padding-bottom: 175px;
-    h1 {
-      color: white;
-      font-size: 3.3em;
-      font-weight: bold;
-      padding-top: 70px;
-      padding-bottom: 30px;
-    }
-    h2 {
-      color: white;
-      font-size: 3em;
-      text-align: right;
-    }
-    p {
-      color: #939393;
-    }
+  background-color: #272727;
+  padding-bottom: 175px;
+  h1 {
+    color: white;
+    font-size: 3.3em;
+    font-weight: bold;
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+  h2 {
+    color: white;
+    font-size: 3em;
+    text-align: right;
+  }
+  p {
+    color: #939393;
+  }
 }
 
 #youtubebutton {
-    background-color: #E96656;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    margin-top: 20px;
-    padding: 10px 23px 10px 23px;
+  background-color: #E96656;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 23px 10px 23px;
 }
 
 .bands {
-    background-color: #8C7620;
-    padding-bottom: 35px;
-    span {
-      color: white;
-      font-size: 3.5em;
-      font-weight: bold;
-      margin-top: 80px;
-    }
+  background-color: #8C7620;
+  padding-bottom: 35px;
+  span {
+    color: white;
+    border-radius: 100%;
+    font-size: 3.5em;
+    font-weight: bold;
+    margin-top: 80px;
+  }
 }
 
 .bandblurb {
-    background-color: white;
-    border-radius: 20px;
-    padding: 20px;
-    text-align: center;
-    img {
-      border-radius: 100%;
-      height: 150px;
-      width: 150px;
-    }
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  img {
+    height: 150px;
+    width: 150px;
+  }
 }
 
 .bandname {
-    font-weight: bold;
-    font-size: 2em;
-    text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
 }
 
 .container {
-    width: 100%;
+  width: 100%;
 }
 
 .gallery-visible {
-    display: block;
+  display: block;
 }
 
 .socialmedia {
-
+  p {
+    margin-top: 25px;
+  }
+  ul li {
+    display: inline;
+    font-size: 2em;
+    margin: 10px;
+    a {
+      color: #939393;
+      &:hover {
+        color: #EB6657;
+      }
+    }
+  }
 }
 
-/*
-.socialmedia p {
-  margin-top: 25px;
-}
-
-.socialmedia ul li {
-  display: inline;
-  font-size: 2em;
-  margin: 10px;
-}
-
-.socialmedia ul li a {
-  color: #939393;
-}
-
-.socialmedia ul li a:hover {
-  color: #EB6657;
-}
-*/
 .videos {
   padding-top: 80px;
   padding-bottom: 35px;
   text-align: center;
-}
-
-.videos div span {
-  font-size: 3.2em;
-  font-family: monospace;
-  font-weight: bold;
+  div span {
+    font-size: 3.2em;
+    font-family: monospace;
+    font-weight: bold;
+  }
 }
 
 .vidyahpane {
   padding: 5px;
+  iframe {
+    width: 380px;
+    height: 325px;
+  }
 }
 
-.vidyahpane iframe {
-  width: 380px;
-  height: 325px;
-}
-
-nav.row {
-  background-color: white;
-  position: fixed;
-  padding-top: 10px;
-  width: 100%;
-  z-index: 4;
-}
-
-nav a {
-  color: #404040;
-  font-family: 'Montserrat', Helvetica, sans-serif;
-  font-size: 0.96em;
-  font-weight: bold;
-  padding-top: 28px;
-  text-decoration: none;
+nav {
+  a {
+    color: #404040;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 0.96em;
+    font-weight: bold;
+    padding-top: 28px;
+    text-decoration: none;
+  }
+  &.row {
+    background-color: white;
+    position: fixed;
+    padding-top: 10px;
+    width: 100%;
+    z-index: 4;
+  }
 }

@@ -75,11 +75,10 @@
   border-radius: 20px;
   padding: 20px;
   text-align: center; }
-
-.bandblurb img {
-  border-radius: 100%;
-  height: 150px;
-  width: 150px; }
+  .bandblurb img {
+    border-radius: 100%;
+    height: 150px;
+    width: 150px; }
 
 .bandname {
   font-weight: bold;
@@ -92,20 +91,25 @@
 .gallery-visible {
   display: block; }
 
+/*
 .socialmedia p {
-  margin-top: 25px; }
+  margin-top: 25px;
+}
 
 .socialmedia ul li {
   display: inline;
   font-size: 2em;
-  margin: 10px; }
+  margin: 10px;
+}
 
 .socialmedia ul li a {
-  color: #939393; }
+  color: #939393;
+}
 
 .socialmedia ul li a:hover {
-  color: #EB6657; }
-
+  color: #EB6657;
+}
+*/
 .videos {
   padding-top: 80px;
   padding-bottom: 35px;

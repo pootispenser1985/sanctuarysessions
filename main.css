@@ -1,15 +1,14 @@
 #backgroundpic {
   background-image: url("images/basement.jpg");
   background-position: -880px -120px;
-  height: 600px;
-  margin-top: 75px;
+  height: 675px;
+  padding-top: 230px;
   text-align: center; }
   #backgroundpic p {
     color: white;
     font-family: serif;
     font-size: 3.5em;
-    font-weight: bold;
-    padding-top: 230px; }
+    font-weight: bold; }
 
 #bench {
   height: 65px;

@@ -4,44 +4,48 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12./jquery.min.js"></script> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="/sancsesh/main.css?version=146">
+  <link rel="stylesheet" type="text/css" href="/sancsesh/main.css?version=162">
   <link rel="shortcut icon" href="http://thrashcan.net/sancsesh/bench.png">
   <title>Sanctuary Sessions - Live Sessions From a Basement in Nashville</title>
-  <script type="text/javascript" src="derpscript.js?v=52"></script>
 </head>
 
 <body>
   <div class="container">
-    <nav class="row">
-      <div class="col-xs-2 col-xs-offset-1">
+    <nav class="row" id="navbar">
+      <div class="col-xs-6 col-md-2 col-md-offset-1">
         <a href="http://thrashcan.net/sancsesh">
           <img id="bench" src="images/bench.png">
         </a>
       </div>
-      <a class="col-xs-1 col-xs-offset-4" href="/sancsesh/sessions/sessions.html">All Sessions</a>
-      <a class="col-xs-2 text-center" href="https://www.instagram.com/blacksheepnashville/">Black Sheep Productions</a>
-  <!--    <a class="col-xs-2 text-center" href="#">Live Session Application</a> -->
-      <a class="col-xs-2" href="http://www.zugzwangrecords.com/">Zugzwang Records</a>
+      <div class="col-xs-3 col-xs-offset-3 hidden-md hidden-lg hidden-xl">
+        <i class="fa fa-bars" id="toggle-menu"></i>
+      </div>
+
+      <a class="col-md-1 col-md-offset-4 col-xs-12 hidden-xs hidden-sm navitem"
+        href="/sancsesh/sessions/sessions.html">All Sessions</a>
+      <a class="col-md-2 text-center col-xs-12 hidden-xs hidden-sm navitem"
+        href="https://www.instagram.com/blacksheepnashville/">Black Sheep Productions</a>
+      <a class="col-md-2 col-xs-12 hidden-xs hidden-sm navitem"
+        href="http://www.zugzwangrecords.com/">Zugzwang Records</a>
     </nav>
 
     <section class="row" id="backgroundpic">
-      <p class="col-xs-12 text-center">SANCTUARY SESSIONS</p>
+      <p class="col-md-12 text-center">SANCTUARY SESSIONS</p>
       <a href="https://www.youtube.com/channel/UCXqWxB_q1wKZ_XKLUUcedeA">
         <button id="youtubebutton">WATCH NOW</button></a>
     </section>
 
     <div class="row" id="whatwedo">
-      <div class="col-xs-12 text-center">
+      <div class="col-md-12 text-center">
         <h1>WHAT WE DO</h1>
       </div>
-      <div class="col-xs-6 text-right">
+      <div class="col-md-6 text-right">
         <h2>Bring the concert to you</h2>
       </div>
-      <div class="col-xs-6 text-justify">
+      <div class="col-md-6 text-justify">
         <p>Our goal is to bring the concert experience to your phone, bring the
           show experience to your computer, bring everything but the beer soaked
           floor to wherever you are.</p>
@@ -52,11 +56,11 @@
     </div>
 
     <div class="row bands">
-      <span class="col-xs-2 col-xs-offset-5">BANDS</span>
+      <span class="col-md-2 col-md-offset-5">BANDS</span>
     </div>
 
     <div class="row bands">
-      <div class="col-xs-4">
+      <div class="col-md-4">
         <div class="bandblurb">
           <p class="bandname">Backpacks</p>
           <p>Backpacks is a four-piece alternative/punk band from Grand Rapids,
@@ -70,7 +74,7 @@
           <img src="images/backpacks.jpg">
         </div>
       </div>
-      <div class="col-xs-4">
+      <div class="col-md-4">
         <div class="bandblurb">
           <p class="bandname">Mountains Like Wax</p>
           <p>Murfreesboro, TN based band Mountains Like Wax is satisfying hungry
@@ -86,7 +90,7 @@
           <img src="images/mountainslikewax.jpg">
         </div>
       </div>
-      <div class="col-xs-4">
+      <div class="col-md-4">
         <div class="bandblurb">
           <p class="bandname">The Touch</p>
           <p>We are a Nashville, TN based Dark Synth Pop ensemble. Our sound came
@@ -100,23 +104,24 @@
             music just as much as you hear it.</p>
 	        <img src="images/thetouch.jpg">
         </div> <!-- bandblurb -->
-      </div> <!-- col-xs-4 -->
+      </div> <!-- col-md-4 -->
     </div> <!-- row -->
     <div class="row bands">
-      <div class="col-xs-4 col-xs-offset-4">
+      <div class="col-md-4 col-md-offset-4">
         <div class="bandblurb">
           <p class="bandname">Your band here!</p>
           <p>Behold my excellent sales pitch. This could be you!</p>
           <img src="images/dad.png">
         </div> <!-- bandblurb -->
-      </div> <!-- col-xs-4 -->
+      </div> <!-- col-md-4 -->
     </div> <!-- bands -->
-
+<!-- commenting out the video section for loading speed while debugging other things
     <div class="row videos">
-      <div class="col-xs-4 col-xs-offset-4">
+      <div class="col-md-4 col-md-offset-4">
         <span>LATEST VIDEOS</span>
       </div>
-    </div> <!-- videos -->
+    </div> <!-- videos
+
     <div class="row videos" id="vidrow0">
       <div class="col-md-4 vidyahpane">
         <iframe src="https://www.youtube.com/embed/dj1gcmfVgzM" frameborder="0" allowfullscreen></iframe>
@@ -154,21 +159,21 @@
       <b>More Sessions</b><br>
       <i class="fa fa-chevron-down" id="morevideos"></i>
     </div>
-
+-->
     <div class="row" id="contact">
-      <div class="col-xs-3">
+      <div class="col-md-3">
         <p><i class="fa fa-map-pin" aria-hidden="true" style="color: #DF5040; font-size: 2em;"></i></p>
         <p>Nashville, TN</p>
       </div>
-      <div class="col-xs-3">
+      <div class="col-md-3">
           <p><i class="fa fa-envelope" aria-hidden="true" style="color: #2FB96D; font-size: 2em;"></i></p>
         <b>info@sanctuarysessions.tv</b>
       </div>
-      <div class="col-xs-3">
+      <div class="col-md-3">
         <p><i class="fa fa-phone-square" aria-hidden="true" style="color: #309FE1; font-size: 2em;"></i></p>
         <b>615.669.3631</b>
       </div>
-      <div class="col-xs-3 socialmedia">
+      <div class="col-md-3 socialmedia">
         <ul>
           <li><a href="https://www.facebook.com/SanctuarySessionsLIVE/">
             <i class="fa fa-facebook"></i></a></li>
@@ -182,4 +187,5 @@
     </div> <!-- contact -->
   </div> <!-- container -->
 </body>
+<script type="text/javascript" src="derpscript.js?v=102916s"></script>
 </html>

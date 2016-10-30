@@ -7,7 +7,7 @@
   p {
     color: white;
     font: {
-      family: serif;
+      family: 'Open Sans', sans-serif;
       size: 3.5em;
       weight: bold;
     }
@@ -25,18 +25,19 @@
   background-color: #272727;
   color: #939393;
   div {
-    font-weight: bold;
-    padding-top: 75px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 50px;
     text-align: center;
     &.socialmedia {
       background-color: #171717;
       height: 100%;
-      padding-top: 80px;
       text-align: center;
     }
     img {
       margin-bottom: 10px;
     }
+  }
+  & .contactLabel {
   }
 }
 
@@ -54,12 +55,14 @@
   padding-top: 70px;
   h1 {
     color: white;
+    font-family: 'Open Sans', sans-serif;
     font-size: 3.3em;
     font-weight: bold;
     margin-bottom: 1.5em;
   }
   h2 {
     color: white;
+    font-family: 'Open Sans', sans-serif;
     font-size: 3em;
     text-align: right;
   }
@@ -149,10 +152,7 @@
     height: 325px;
   }
 }
-/*
-#toggle-menu {
-  font-size: 2.5em;
-}*/
+
 nav {
   #toggle-menu {
     font-size: 3em;

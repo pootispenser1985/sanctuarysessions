@@ -6,7 +6,7 @@
   text-align: center; }
   #backgroundpic p {
     color: white;
-    font-family: serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 3.5em;
     font-weight: bold; }
 
@@ -20,13 +20,12 @@
   background-color: #272727;
   color: #939393; }
   #contact div {
-    font-weight: bold;
-    padding-top: 75px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 50px;
     text-align: center; }
     #contact div.socialmedia {
       background-color: #171717;
       height: 100%;
-      padding-top: 80px;
       text-align: center; }
     #contact div img {
       margin-bottom: 10px; }
@@ -43,11 +42,13 @@
   padding-top: 70px; }
   #whatwedo h1 {
     color: white;
+    font-family: 'Open Sans', sans-serif;
     font-size: 3.3em;
     font-weight: bold;
     margin-bottom: 1.5em; }
   #whatwedo h2 {
     color: white;
+    font-family: 'Open Sans', sans-serif;
     font-size: 3em;
     text-align: right; }
   #whatwedo p {
@@ -117,10 +118,6 @@
     width: 380px;
     height: 325px; }
 
-/*
-#toggle-menu {
-  font-size: 2.5em;
-}*/
 nav #toggle-menu {
   font-size: 3em; }
   nav #toggle-menu:hover {

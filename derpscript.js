@@ -27,13 +27,12 @@ shownextrow = function() {
 i = 0;
 togglemenu = function() {
   if (i % 2 === 0) {
-    $(".navitem").removeClass("hidden-xs");
-    $(".navitem").removeClass("hidden-sm");
+    $(".navitem").removeClass("hidden-sm hidden-xs");
     $(".navitem").addClass("text-center");
+    $(".navitem").css('color: red;');
   }
   else {
-    $(".navitem").addClass("hidden-xs");
-    $(".navitem").addClass("hidden-sm");
+    $(".navitem").addClass("hidden-sm hidden-xs");
   }
   i += 1;
 }
